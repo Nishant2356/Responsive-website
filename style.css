@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap')
+.logo{
+  height: 50px;
+  padding: 0;
+}
+ul {
+  align-items: center;
+  display: flex;
+  gap: 25px;
+}
+.logo{
+  height: 50px;
+  padding: 0;
+}
+ul li{
+  list-style: none;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+header{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+*{
+  font-family: "Kalnia", serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+}
+.info{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 50px;
+  font-size: 100px;
+}
+.v{
+  font-size: 60px;
+}
+.b{
+  height: 400px;
+  width: 300px;
+  background-color: red;
+  border-radius: 70px;
+  position: relative;
+}
+.wp{
+  width: 550px;
+  margin-top: 100px;
+}
+.a{
+  position: absolute;
+  left: 720px;
+  top: 230px;
+}
+.c{
+  position: absolute;
+  left: 840px;
+  top: 280px;
+  background-color: blue;
+}
+.e{
+  position: absolute;
+  left: 960px;
+  top: 330px;
+  background-color: white;
+  z-index: 1;
+}
+.d{
+  position: absolute;
+  left: 1060px;
+  top: 390px;
+  background-color: green;
+  z-index: 2;
+}
+.dg{
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 70px;
+}
+.lf{
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 70px;
+  object-position: center;
+}
+.op{
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 70px;
+}
+.sk{
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 70px;
+}
+button{
+  color: black;
+  background-color: #F0F0F0;
+  border-radius: 30px;
+  width: 180px;
+  height: 60px;
+  font-size: 30px;
+  position: absolute;
+  left: 630px;
+  top: 850px;
+  cursor: pointer;
+}
